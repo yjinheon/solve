@@ -15,9 +15,6 @@
 
 temp = [3,5,9]
 
-#temp = [1,5,6]
-
-
 # solution 1        
 
 while True:
