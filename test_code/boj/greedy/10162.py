@@ -19,5 +19,3 @@ else:
         cnt[i] = t//buttons[i]
         t -= cnt[i] * buttons[i]
     print(cnt[0],cnt[1],cnt[2])
-
- 
