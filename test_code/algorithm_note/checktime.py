@@ -10,3 +10,4 @@ def check_time(func):
         print(f"Processing time is {(time.time()-start_time):.2f}")
         return func_result
     return wrapper_fn
+

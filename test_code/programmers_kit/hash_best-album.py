@@ -41,9 +41,9 @@ def solution(genres, plays):
     
     return answer
 """
+
 # Holy Shit!
 
-"""
 
 def solution(genres, plays):
     answer = []
@@ -73,14 +73,8 @@ def solution(genres, plays):
                     answer.append(total_list[t][0][1])
     return answer
                     
-    
-"""
- 
-
 
 temp_gen = ["classic", "pop", "classic", "classic", "pop"]
-temp_plays = [500, 600, 150, 800, 2500]
-
 
 if __name__ == "__main__":
     print(solution(temp_gen, temp_plays))

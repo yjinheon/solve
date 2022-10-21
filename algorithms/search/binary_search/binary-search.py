@@ -1,10 +1,12 @@
 """
-- 시잔복잡도가 Log2N
+- 시간복잡도가 Log2N
 - 자료의 크기가 클수록 선형탐색에 비해 성능이 우수해짐
 - 자료가 정렬되어 있다는 전제가 필요
+
 ref
 - https://soooprmx.com/
 - https://www.geeksforgeeks.org/python-program-for-binary-search/
+
 """
 from random import randint
 import time
@@ -63,9 +65,6 @@ def binary_search_iter(arr, low, high, x):
     else:
         # Element is not present in the array
         return -1
-
-
-
 
 
 temp_arr = [randint(100,1000000) for _ in range(1000000)]
