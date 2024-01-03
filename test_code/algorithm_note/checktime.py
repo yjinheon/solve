@@ -11,3 +11,10 @@ def check_time(func):
         return func_result
     return wrapper_fn
 
+
+def main():
+    print("start")
+
+
+if __name__ == "__main__":
+    main()

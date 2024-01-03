@@ -15,7 +15,7 @@ def check_time(func):
 if __name__ == "__main__":
     @check_time
     def test_fn():
-        for i in range(1000000):
-            randint(1,100)
+        for i in range(10000):
+           i=randint(1,100)
     test_fn()
 

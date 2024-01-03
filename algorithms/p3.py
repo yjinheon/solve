@@ -12,6 +12,11 @@ Part 2에 이어 추가적인 상황을 해결해보자.
 '''
 # 아래 counter 클래스는 변경하지 마세요!
 class counter:
+    """
+    함수의 호출 횟수를 세는 클래스입니다.
+
+    __call__ : 클래스의 인스턴스가 함수처럼 호출되었을 때 호출됩니다.
+    """
     def __init__(self, function):
         self.function = function
         self.cnt = 0

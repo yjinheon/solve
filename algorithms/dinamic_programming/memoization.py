@@ -12,7 +12,6 @@ def recursive_factorial(n):
         memo[n] = result
         return result
 
-
 # case 1 
 
 if __name__ == "__main__":

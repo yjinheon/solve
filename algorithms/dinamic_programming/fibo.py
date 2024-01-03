@@ -16,5 +16,5 @@ def memo_fib(input_value, save_memo):
 
 if __name__ == "__main__":
     save_memo = {}
-    print(memo_fib(10, save_memo))
+    print(memo_fib(40, save_memo))
     print("hello world")
