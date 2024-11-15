@@ -9,13 +9,13 @@
 import sys
 
 t = 391
-buttons = [300,60,10]
+buttons = [300, 60, 10]  # 370
 cnt = [0] * 3
 
 if (t % 10) != 0:
     print(-1)
 else:
     for i in range(3):
-        cnt[i] = t//buttons[i]
+        cnt[i] = t // buttons[i]
         t -= cnt[i] * buttons[i]
-    print(cnt[0],cnt[1],cnt[2])
+    print(cnt[0], cnt[1], cnt[2])

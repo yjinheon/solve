@@ -47,21 +47,18 @@ def solution(genres, plays):
 
 def solution(genres, plays):
     answer = []
-    gen_dic = defaultdict(lambda : 0)
-    total_list = defaultdict(lambda :[])
+    gen_dic = defaultdict(lambda: 0)
+    total_list = defaultdict(lambda: [])
 
     for i in range(len(genres)):
         gen_dic[genres[i]] += plays[i]
         total_list[genres[i]].append((plays[i], i))
-        
-    gen_dic = sorted(gen_dic, key = lambda x : x[1], reverse = True)
-        
-    
-    
+
+    gen_dic = sorted(gen_dic, key=lambda x: x[1], reverse=True)
+
     for i in total_list:
-        total_list[i] = sorted(total_list[i], key = lambda x : x[0], reverse = True)[:2]
-        
-        
+        total_list[i] = sorted(total_list[i], key=lambda x: x[0], reverse=True)[:2]
+
     while len(total_list) > 0:
         gere_max = gen_dic.pop(0)
         for t in total_list:
@@ -72,7 +69,7 @@ def solution(genres, plays):
                 else:
                     answer.append(total_list[t][0][1])
     return answer
-                    
+
 
 temp_gen = ["classic", "pop", "classic", "classic", "pop"]
 
