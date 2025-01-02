@@ -39,7 +39,7 @@ public:
 
 int main() {
   Solution s;
-  int num = 10;
+  int num = 5;
   int limit = 2;
   int power = 3;
   int result = s.solution(num, limit, power);

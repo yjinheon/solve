@@ -47,6 +47,7 @@ def solution(genres, plays):
 
 def solution(genres, plays):
     answer = []
+    
     gen_dic = defaultdict(lambda: 0)
     total_list = defaultdict(lambda: [])
 

@@ -1,3 +1,6 @@
+// 크기 n의 배열이 주어졌을 때 index 0부터 n-1까지의 모든 index i 에 대해
+// i 부터 n-1까지의 값 중 가장 작은 값을 구해 index i에 둔다.n-1까지의
+
 #include <stdio.h>
 
 int main(void) {
