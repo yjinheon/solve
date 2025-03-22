@@ -3,6 +3,7 @@
 number = int(input())  # number
 string = input()  # String
 
+
 # Array
 
 list1 = map(int, input().split())
