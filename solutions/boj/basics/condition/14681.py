@@ -1,18 +1,12 @@
 x = int(input())
 y = int(input())
 
-import pandas as pd
 
 def run_test():
     for i in range(20):
         print("hello world")
         
         
-        
-
-         
-        
-
 
 
 def main():

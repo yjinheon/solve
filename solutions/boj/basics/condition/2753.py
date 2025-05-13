@@ -1,4 +1,5 @@
-y = int(input())
+#y = int(input())
+y = 2000
 
 
 def solve(year):
