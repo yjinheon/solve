@@ -1,8 +1,10 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 echo -e "\033[0;32mDeploying solved code to Github\033[0m" # e means interpret backslash escapes
 
 # Add changes to git .
+git add .
+
 git add .
 
 # Commit changes.

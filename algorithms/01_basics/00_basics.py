@@ -4,10 +4,14 @@ number = int(input())  # number
 string = input()  # String
 
 
+
+
 # Array
 
 list1 = map(int, input().split())
 list2 = map(str, input().split())
+
+
 
 print(number)
 print(list2)
