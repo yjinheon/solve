@@ -8,7 +8,7 @@ git add .
 git add .
 
 # Commit changes.
-msg="working in progres.. $(date)"
+msg="feat: working in progres.. $(date)"
 if [ $# -eq 1 ]; then
   msg="$1"
 fi
